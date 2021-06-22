@@ -1,0 +1,23 @@
+print("▌│█║▌║▌║LIMITE DE DECIMALES▌│█║▌║▌║")
+#oldway (forma vieja V1)
+clasic_way = 48.94745 
+print ("clasic_way: %.2f" %clasic_way ) 
+
+#Forma moderna(con format V2) 
+x = 73.94745 
+print(float('{:.3f}'.format(x))) 
+#Forma default Python
+h = round (154.568877,5) 
+print(h) 
+
+#Forma con format directo (V3)
+a = 13.554458272348 
+print(format(a, '.5f')) 
+
+#Forma con f-strigns (V4)
+modern_way = 73.94745888 
+print(f"modern_way: {modern_way:.4f}") 
+
+#Limitar stings 
+str = "Hola_mundo" 
+print("Clasic STR: %.4s" % str )
