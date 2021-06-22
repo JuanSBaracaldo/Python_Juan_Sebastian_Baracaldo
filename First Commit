@@ -1,0 +1,9 @@
+#▌│█║▌║▌║ SEPARADOR DE ENTEROS ▌│█║▌║▌║ 
+lista = [] 
+def string_int(mi_dato): 
+  for i in mi_dato: 
+      lista.append(int(i)) 
+  print(lista)  
+  
+dato_usuario = input("Ingrese el numero a separar: ") 
+string_int(dato_usuario)
